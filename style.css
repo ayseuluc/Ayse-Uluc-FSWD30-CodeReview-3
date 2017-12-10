@@ -1,0 +1,126 @@
+/*//////////////all HTML //////////////*/
+
+body {
+	font-family: 'Raleway';
+	font-size:  18px;
+	
+	background-color: #38A18C;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+   
+    
+}
+
+
+
+/*////////////// company //////////////*/
+
+.wrapper {
+	width:  80%;
+	margin: 0 auto;
+    background: rgba(255,255, 255, 0.4);
+    padding: 10px 20px 30px 20px;
+    max-width: 1920px;
+    height: 100%;
+}
+
+.company {
+	text-align: center;
+	color: #E78244;
+	font-size: 2em;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+
+}
+
+
+
+/*////////////// TEAM //////////////*/
+.team {
+	text-align: center;
+	color: #2E5159;
+	font-weight: 900;
+	font-size: 1.30em;
+}
+
+h1 {
+	font-family: 'Raleway';
+	font-size: 3.5em;
+	line-height: 1;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 0px 3px 0px #b2a98f,
+                 0px 14px 10px rgba(0,0,0,0.15),
+                 0px 24px 2px rgba(0,0,0,0.1),
+                 0px 34px 30px rgba(0,0,0,0.1);
+}
+
+a{
+	text-align: center;
+	color: #E9EEED;
+	font-weight: 900;
+}
+
+h2 {
+	text-align: center;
+	color: #E9EEED;
+
+}
+
+section{
+  display: flex;
+  margin-top: 30px;
+}
+
+section article{
+  width: 35%;
+  box-shadow: 10px 20px 30px grey;
+  margin: 5%;
+}
+
+
+
+/*////////////// BUtton //////////////*/
+
+
+input.MyButton {
+
+cursor: pointer;
+background: #E3E3E3;
+color: #2D4452;
+border: 1px solid #2D4452;
+border-radius: 20px;
+
+
+margin-top: 20px;
+	height: 70px;
+	width:  100%;
+	outline:  0;
+	font-size: 40px;
+	padding-left: 80px;
+
+
+}
+input.MyButton:hover {
+color: #2D4452;
+background: #38A18C;
+border: 1px solid ;
+}
+
+
+/*//////////////Footer //////////////*/
+
+footer{
+	text-align: center;
+	font-size: 0.5em;
+	margin: 10%;
+	margin-bottom: 0;
+}
+
+
+
+
+
+
+
+

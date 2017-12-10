@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylecalc.css">
+   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <title>CodeReview 3</title>
+    
+
+
+
+</head>
+<body>
+
+    <!-- NavigationBar --> 
+
+<div id="con.">
+        <header>
+           <div class="menu-wrap">
+    <nav class="menu">
+        <ul class="clearfix">
+            <li><a href="index.html">HOME</a></li>
+            <li>
+                <a href="#">TEEN DRIVERS<span class="arrow">&#9660;</span></a>
+ 
+                <ul class="sub-menu">
+                    <li><a href="#">Parent's Guide to Insuring a Teen Driver</a></li>
+                    <li><a href="#">Coming Soon</a></li>
+                    <li><a href="#">Insurance for 16-year-olds</a></li>
+                    <li><a href="#">Best Cars for Teens</a></li>
+                </ul>
+            </li>
+           
+            <li>
+                <a href="#">CALCULATORS<span class="arrow">&#9660;</span></a>
+ 
+                <ul class="sub-menu">
+                    <li><a href="check_price.html"> Car Calculator</a></li>
+                    <li><a href="#">Coming Soon</a></li>
+                    <li><a href="#">Calculator2</a></li>
+                    <li><a href="#">Calculator3</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#">Site Help</a></li>
+        </ul>
+    </nav>
+</div>
+        </header>
+
+
+
+<!-- The Form -->
+
+<section>
+
+ <div id="title">
+            <h1>Price Check </h1>
+        </div>
+    <div id="all">
+       <div class="form">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name..">
+
+    <label for="carAge">Car age</label>
+    <input type="text" id="age" name="age" placeholder="Car age..">
+
+    <label for="power">Horse power</label>
+    <input type="text" id="horsepower" name="horsepower" placeholder="Horsepower..">  
+
+    <label for="country">Country</label>
+    
+    <select id="country" name="country">
+      <option value="austria">Austria</option>
+      <option value="germany">Germany</option>
+     </select>
+</div>
+</section>
+
+
+<!-- Button -->
+
+<section>
+    <div class="calculator">
+           <button onclick="calculateInsurance()">calculate</button>
+     </div>
+</section>
+
+
+<!-- Thr comment with Calculated Price -->
+
+    <div class="calculatePrice">
+         <p id="price"></p>
+    </div>
+
+
+<!-- Price-->
+                  
+<footer>
+        &copy; Ayse Uluc - CodeFactory
+</footer>
+
+
+</div>
+
+
+<script src="java.js"></script>
+
+</body>
+</html>

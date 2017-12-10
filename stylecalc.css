@@ -1,0 +1,218 @@
+
+/*//////////////all HTML //////////////*/
+
+* {
+    box-sizing: border-box;
+    margin:0;
+}
+
+
+body, html {
+    max-width: 1920px;
+    height: 100%;
+    font-family: Raleway;
+}
+
+
+/* /////// head //////////*/ 
+
+header {
+    height: 100%;
+}
+
+/* /////// Navigastionbar /////////*/
+
+ body {
+    background: #38A18C;
+}
+
+.clearfix:after {
+    display:block;
+    clear:both;
+}
+ 
+/*----- Menu Outline -----*/
+.menu-wrap {
+    width:80%;
+   
+}
+ 
+.menu {
+    width:1000px;
+    margin:0px auto;
+}
+ 
+.menu li {
+    margin:0px;
+    list-style:none;
+    font-family:'Raleway';
+}
+ 
+.menu a {
+    transition:all linear 0.15s;
+    color:#406A80;
+}
+ 
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:white;
+}
+ 
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+}
+ 
+/*----- Top Level -----*/
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+}
+ 
+.menu > ul > li > a {
+    padding:10px 40px;
+    display:inline-block;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+}
+ 
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#9bc6c0;
+}
+ 
+/*----- Bottom Level -----*/
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+ 
+.sub-menu {
+    width:160%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#2e2728;
+}
+ 
+.sub-menu li {
+    display:block;
+    font-size:16px;
+}
+ 
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:#3e3436;
+}
+
+/* ///// ...... //////*/ 
+
+#all {
+    display: flex;
+    
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    min-width: 300px;
+    padding: 30px;
+    background-color: #26a69a;
+}
+
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+
+#title {
+    display: flex;
+    justify-content: center;
+    color: #00695c;
+    width: 100%;
+    font-weight: 600;
+    }
+
+.form{
+    margin: 40px;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    color: #00695c;
+    width: 70%;
+}
+
+
+
+/* ///// Input //////*/ 
+
+
+
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+/* ///// Button //////*/ 
+
+
+button{
+    background-color: #38A18C;
+    border-radius: 7px;
+    outline: none;
+    width: 35%;
+    height: 40px;
+    font-size: 200%;
+    
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+
+button:hover  {
+    background-color: #757575;
+    cursor: pointer;
+    color: #fff;
+
+
+}
+
+
+/* ////// Footer ////////*/ 
+
+footer{
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 0;
+}
